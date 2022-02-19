@@ -1,7 +1,7 @@
 # odin-flex
 
-Dummy website using flex following The Odin Project's curriculum.
+Dummy website template using flex following The Odin Project's curriculum.
 
-## Asset Credits
+## Credits
 
-TBA
+Hero Image | Photo by [Michał Kubalczyk](https://unsplash.com/photos/WecngmAT-KY) on [Unsplash](https://unsplash.com/)
