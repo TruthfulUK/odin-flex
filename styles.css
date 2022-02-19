@@ -86,3 +86,58 @@ header .container .hero {
     max-width: 40vw;
     border-radius: 60px;
 }
+
+main h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px;
+}
+
+main .container {
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.demo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    font-size: 14px;
+    text-align: center;
+    gap: 20px;
+    row-gap: 20px;
+}
+
+.demo-item p {
+    margin: 10px 0 10px 0;
+}
+
+.demo-item img {
+    max-width: 150px;
+    max-height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+main .testimonial {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 100px;
+}
+
+main .testimonial p.author {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    align-items: flex-end;
+    text-align: end;
+}
