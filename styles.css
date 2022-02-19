@@ -10,7 +10,7 @@ html {
     box-sizing: inherit;
     padding: 0;
     margin: 0;
-    /* border: 1px solid red; */
+    /* border: 1px solid rgba(255, 0, 0, 0.226); */
 }
 
 header {
@@ -140,4 +140,43 @@ main .testimonial p.author {
     font-size: 18px;
     align-items: flex-end;
     text-align: end;
+}
+
+.footer-cta {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 40px 100px;
+    flex-wrap: wrap;
+}
+
+.footer-cta-text {
+    margin-bottom: 10px;
+}
+
+.footer-cta-btn {
+    align-self: center;
+}
+
+.footer-cta-btn button {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 10px;
+    color: #E5E7Eb;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    background: #1F2937;
+    color: #E5E7Eb;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
 }
